@@ -29,7 +29,7 @@ export const links: Link[] = [
 
 const Footer = () => {
   return (
-    <footer className="w-full flex flex-col gap-10 items-center">
+    <footer className="w-full flex flex-col gap-10 items-center pt-10">
       <Logo />
       <ul className="flex items-center gap-10">
         {sections.map((section, index) => (

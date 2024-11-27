@@ -9,6 +9,9 @@ type Assets = {
   linkdineIcon: IconType;
   heroImg: string;
   aboutImg: string;
+  project01: string;
+  project02: string;
+  project03: string;
 };
 
 export const assets: Assets = {
@@ -18,4 +21,7 @@ export const assets: Assets = {
   linkdineIcon: FaLinkedin,
   heroImg: "/imgs/Hero.png",
   aboutImg: "/imgs/about.png",
+  project01: "/imgs/project01.png",
+  project02: "/imgs/project02.png",
+  project03: "/imgs/project04.png",
 };
