@@ -1,37 +1,37 @@
 import { Button, Logo } from "../UI";
 
-type Sections = {
+export type Sections = {
   name: string;
   link: string;
 };
 
+export const sections: Sections[] = [
+  {
+    name: "Home",
+    link: "#",
+  },
+  {
+    name: "About Me",
+    link: "#",
+  },
+  {
+    name: "Services",
+    link: "#",
+  },
+  {
+    name: "Projects",
+    link: "#",
+  },
+  {
+    name: "Testimonials",
+    link: "#",
+  },
+  {
+    name: "Contact",
+    link: "#",
+  },
+];
 const Header = () => {
-  const sections: Sections[] = [
-    {
-      name: "Home",
-      link: "#",
-    },
-    {
-      name: "About Me",
-      link: "#",
-    },
-    {
-      name: "Services",
-      link: "#",
-    },
-    {
-      name: "Projects",
-      link: "#",
-    },
-    {
-      name: "Testimonials",
-      link: "#",
-    },
-    {
-      name: "Contact",
-      link: "#",
-    },
-  ];
   return (
     <header className="w-full flex items-center justify-between gap-10 py-4 px-32 ">
       <Logo />
