@@ -39,7 +39,7 @@ const Skills = () => {
     let step = 0;
     const interval = setInterval(() => {
       step += 1;
-      setAnimatedSkills((prev) =>
+      setAnimatedSkills(() =>
         skills.map((skill) => ({
           ...skill,
           percentage: Math.min(step, skill.percentage),

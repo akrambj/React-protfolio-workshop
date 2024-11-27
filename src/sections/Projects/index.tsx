@@ -10,7 +10,7 @@ export type Project = {
 };
 
 const Projects = () => {
-  const [projects, setProjects] = useState<Project[]>([
+  const projects = [
     {
       name: "project01",
       img: assets.project01,
@@ -41,7 +41,7 @@ const Projects = () => {
       img: assets.project03,
       description: "AirCalling Landing Page Design ",
     },
-  ]);
+  ];
   const [currentPage, setCurrentPage] = useState(1);
 
   const projectPerPage = 3;
