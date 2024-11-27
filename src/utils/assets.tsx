@@ -7,6 +7,7 @@ type Assets = {
   xIcon: IconType;
   instagramIcon: IconType;
   linkdineIcon: IconType;
+  heroImg: string;
 };
 
 export const assets: Assets = {
@@ -14,4 +15,5 @@ export const assets: Assets = {
   xIcon: FaXTwitter,
   instagramIcon: FaInstagram,
   linkdineIcon: FaLinkedin,
+  heroImg: "/imgs/Hero.png",
 };
